@@ -1,8 +1,8 @@
-from flask import Flask
+ofrom flask import Flask
 
 app = Flask(__name__)
 
 @app.route('/')
-def source():
- html = 'Hello World!'
- return html
+def hello():
+ return 'Hello World!'
+ 
